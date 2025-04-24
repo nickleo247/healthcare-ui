@@ -72,6 +72,9 @@ body{
   list-style:none;
 }
 
+.sidebar-main-nav li.single-nav-item{
+  margin:10px 0;
+
 .sidebar-main-nav li.single-nav-item a{
   display:block;
   padding:15px 20px;
