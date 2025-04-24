@@ -46,3 +46,12 @@ body{
   padding-left:0;
   list-style:none;
 }
+
+.menu-icon-overview{
+  background:url(overview-icon.png) no-repeat left center;
+  width:19px;
+  height:19px;
+  display:inline-block;
+  vertical-align:middle;
+  background-size:contain;
+}
