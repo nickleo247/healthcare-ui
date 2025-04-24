@@ -68,7 +68,11 @@ body{
 
 .sidebar-main-nav li.single-nav-item a{
   display:block;
-  padding:10px 20px;
+  padding:15px 20px;
+  color:#343434;
+  font-family: "Poppins", sans-serif;
+  font-size:12px;
+  text-decoration:none;
 }
 
 .menu-icon-overview{
