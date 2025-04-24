@@ -83,6 +83,7 @@ body{
 
 .sidebar-main-nav li.single-nav-item a.active-link{
   font-family: "Poppins Bold", sans-serif;
+  font-weight:900;
   color:#100DB1;
   background:#DFE0E2;
 }
@@ -98,4 +99,23 @@ body{
   margin-right:10px;
 }
 
+.menu-icon-appointment{
+  background:url(appointments-icon.png) no-repeat left center;
+  width:19px;
+  height:19px;
+  display:inline-block;
+  vertical-align:middle;
+  background-size:contain;
+  margin-right:10px;
+}
+
+.menu-icon-doctors{
+  background:url(doctor-icon.png) no-repeat left center;
+  width:19px;
+  height:19px;
+  display:inline-block;
+  vertical-align:middle;
+  background-size:contain;
+  margin-right:10px;
+}
 
