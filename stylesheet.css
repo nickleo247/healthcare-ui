@@ -66,6 +66,11 @@ body{
   list-style:none;
 }
 
+.sidebar-main-nav li.single-nav-item a{
+  display:block;
+  padding:10px 20px;
+}
+
 .menu-icon-overview{
   background:url(overview-icon.png) no-repeat left center;
   width:19px;
@@ -74,3 +79,5 @@ body{
   vertical-align:middle;
   background-size:contain;
 }
+
+
