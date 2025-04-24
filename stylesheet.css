@@ -23,6 +23,7 @@ body{
   align-content:flex-start;
   width:auto;
   flex-direction:row;
+  border-bottom:1px solid #D3D3D3;
 }
 
 
@@ -41,3 +42,7 @@ body{
   background-size:contain;
 }
   
+.sidebar-main-nav{
+  padding-left:0;
+  list-style:none;
+}
