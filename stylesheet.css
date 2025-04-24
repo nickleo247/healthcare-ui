@@ -75,6 +75,12 @@ body{
   text-decoration:none;
 }
 
+.sidebar-main-nav li.single-nav-item a.active-link{
+  font-family: "Poppins Semibold", sans-serif;
+  color:#100DB1;
+}
+
+
 .menu-icon-overview{
   background:url(overview-icon.png) no-repeat left center;
   width:19px;
