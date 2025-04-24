@@ -21,6 +21,12 @@ body{
   font-style: normal;
 }
 
+.poppins-bold {
+  font-family: "Poppins Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 .full-wrapper{
   width:100%;
@@ -76,7 +82,7 @@ body{
 }
 
 .sidebar-main-nav li.single-nav-item a.active-link{
-  font-family: "Poppins Semibold", sans-serif;
+  font-family: "Poppins Bold", sans-serif;
   color:#100DB1;
 }
 
