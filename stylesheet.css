@@ -2,3 +2,14 @@ body{
   margin:0;
   padding:10px;
 }
+
+.full-wrapper{
+  width:100%;
+}
+
+.sidebar-wrapper{
+  width:30%;
+  display:inline-block;
+  background-color:#F7F7F7;
+  border-radius:20px;
+}
