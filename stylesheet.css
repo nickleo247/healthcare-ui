@@ -13,3 +13,7 @@ body{
   background-color:#F7F7F7;
   border-radius:20px;
 }
+
+.logo{
+  background:url(Logo.png) no-repeat center center;
+}
