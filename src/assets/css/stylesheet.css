@@ -246,7 +246,7 @@ header{
 }
 
 .search-bar-icon{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/search-icon.png) center center;
+  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/search-icon.png) no-repeat center center;
   width:13px;
   height:13px;
   vertical-align:middle;
