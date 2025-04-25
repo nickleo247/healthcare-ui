@@ -214,4 +214,13 @@ body{
   background-size:contain;
   margin-right:10px;
 }
+
+.footer-phone{
+  display:inline-block;
+  vertical-align:middle;
+  margin:0;
+  font-size:10px;
+  color:#343434;
+  font-family: "Poppins", sans-serif;
+}
   
