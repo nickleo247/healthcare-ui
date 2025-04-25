@@ -234,3 +234,9 @@ body{
 .sidebar-footer{
   padding:0 20px;
 }
+
+header{
+  background-color:#F7F7F7;
+  padding:20px;
+  border-radius:20px;
+}
