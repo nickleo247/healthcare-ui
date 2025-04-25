@@ -239,3 +239,8 @@ header{
   padding:20px;
   border-radius:20px;
 }
+
+.search-bar{
+  border:1px solid #C5C5C5;
+  background-color:white;
+}
