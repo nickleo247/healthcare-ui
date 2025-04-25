@@ -244,3 +244,11 @@ header{
   border:1px solid #C5C5C5;
   background-color:white;
 }
+
+.search-bar-icon{
+  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/search-icon.png) center center;
+  width:13px;
+  height:13px;
+  vertical-align:middle;
+  background-size:contain;
+}
