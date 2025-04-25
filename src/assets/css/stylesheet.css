@@ -61,7 +61,7 @@ body{
 }
 
 .expand-icon{
-  background:url(src/assets/images/Expand-Icon.png) no-repeat center right;
+  background:url(../src/assets/images/Expand-Icon.png) no-repeat center right;
   width:20%;
   height:9px;
   background-size:contain;
