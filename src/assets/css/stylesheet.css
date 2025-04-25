@@ -151,3 +151,18 @@ body{
   color:#343434;
   font-family: "Poppins Bold", sans-serif;
 }
+
+.single-nav-item{
+  position:relative;
+}
+
+.chat-number{
+  position:absolute;
+  right:20px;
+  top:34%;
+  background-color:#F80D38;
+  color:white;
+  font-family: "Poppins Bold", sans-serif;
+  font-size:8px;
+  text-align:center;
+}
