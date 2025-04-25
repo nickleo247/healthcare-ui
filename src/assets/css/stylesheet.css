@@ -191,3 +191,9 @@ body{
   background-size:contain;
   margin-right:10px;
 }
+
+.red-nav-text a{
+  color:#F80D38;
+  font-family: "Poppins Bold", sans-serif;
+  font-weight: 700;
+}
