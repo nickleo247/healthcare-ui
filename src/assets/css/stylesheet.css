@@ -297,3 +297,16 @@ input.search-input{
   vertical-align:middle;
   border-right:1px solid #c5c5c5;
 }
+
+.profile-wrapper{
+  display:flex;
+  align-items:center;
+}
+
+.profile-icon{
+  background:#D6D6D6;
+  width:42px;
+  height:42px;
+  border-radius:100%;
+  border:1px solid white;
+}
