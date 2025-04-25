@@ -1,6 +1,6 @@
 body{
   margin:0;
-  padding:10px;
+  padding:20px;
 }
 
 .poppins-light {
@@ -79,7 +79,7 @@ body{
 
 .sidebar-main-nav li.single-nav-item a{
   display:block;
-  padding:15px 20px;
+  padding:20px;
   color:#343434;
   font-family: "Poppins", sans-serif;
   font-size:12px;
