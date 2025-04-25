@@ -53,7 +53,7 @@ body{
 
 
 .logo{
-  background:url(src/assets/Logo.png) no-repeat center left;
+  background:url(src/assets/images/Logo.png) no-repeat center left;
   width:80%;
   height:45px;
   background-size:contain;
@@ -61,7 +61,7 @@ body{
 }
 
 .expand-icon{
-  background:url(Expand-Icon.png) no-repeat center right;
+  background:url(src/assets/images/Expand-Icon.png) no-repeat center right;
   width:20%;
   height:9px;
   background-size:contain;
@@ -94,7 +94,7 @@ body{
 
 
 .menu-icon-overview{
-  background:url(overview-icon.png) no-repeat left center;
+  background:url(src/assets/images/overview-icon.png) no-repeat left center;
   width:19px;
   height:19px;
   display:inline-block;
@@ -104,7 +104,7 @@ body{
 }
 
 .menu-icon-appointments{
-  background:url(appointments-icon.png) no-repeat left center;
+  background:url(src/assets/images/appointments-icon.png) no-repeat left center;
   width:19px;
   height:19px;
   display:inline-block;
@@ -114,7 +114,7 @@ body{
 }
 
 .menu-icon-doctors{
-  background:url(doctor-icon.png) no-repeat left center;
+  background:url(src/assets/images/doctor-icon.png) no-repeat left center;
   width:19px;
   height:19px;
   display:inline-block;
