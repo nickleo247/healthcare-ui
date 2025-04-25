@@ -299,8 +299,8 @@ input.search-input{
 }
 
 .profile-wrapper{
-  display:flex;
-  align-items:center;
+  display:inline-block;
+  vertical-align:middle;
 }
 
 .profile-icon{
@@ -309,4 +309,6 @@ input.search-input{
   height:42px;
   border-radius:100%;
   border:1px solid white;
+  display:inline-block;
+  vertical-align:middle;
 }
