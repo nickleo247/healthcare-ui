@@ -233,9 +233,10 @@ body{
 }
 
 .sidebar-footer{
-  padding:0 20px;
+  padding:20px;
   display:flex;
   align-items:center;
+  border-top:1px solid #D3D3D3;
 }
 
 header{
