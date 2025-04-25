@@ -251,4 +251,6 @@ header{
   height:13px;
   vertical-align:middle;
   background-size:contain;
+  background:transparent;
+  border:0;
 }
