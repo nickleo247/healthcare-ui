@@ -243,6 +243,8 @@ header{
 .search-bar{
   border:1px solid #C5C5C5;
   background-color:white;
+  padding:7px;
+  border-radius:10px;
 }
 
 .submit-button{
