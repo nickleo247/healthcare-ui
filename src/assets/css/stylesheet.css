@@ -279,6 +279,9 @@ input.search-input{
   background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/bell-icon.png) #fff no-repeat center center;
   border:1px solid #C5C5C5;
   border-radius:100%;
+  width:22px;
+  height:22px;
+  display:block;
   margin:0 15px;
   background-size:15px;
   
