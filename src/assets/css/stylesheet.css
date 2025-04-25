@@ -250,6 +250,7 @@ header{
 .submit-button{
   border:0;
   background:transparent;
+  vertical-align:top;
 }
 
 .search-bar-icon{
@@ -262,4 +263,10 @@ header{
   border:0;
 }
 
+.‎search-input{
+  border:0;
+  display:inline-block;
+  vertical-align:middle;
+  font-size:10px;
+}
 
