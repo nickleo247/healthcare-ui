@@ -245,6 +245,9 @@ header{
   background-color:white;
   padding:7px;
   border-radius:10px;
+  display:inline-block;
+  width:calc(100% - 250px);
+  vertical-align:middle;
 }
 
 .submit-button{
@@ -276,4 +279,13 @@ input.search-input{
   background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/bell-icon.png) #fff no-repeat center center;
   border:1px solid #C5C5C5;
   border-radius:100%;
+  margin:0 15px;
+  background-size:15px;
+  
+}
+
+.bell-wrapper{
+  display:inline-block;
+  vertical-align:middle;
+  border-right:1px solid #c5c5c5;
 }
