@@ -123,3 +123,12 @@ body{
   margin-right:10px; 
 }
 
+.menu-icon-pathology{
+  background:url(images/pathology-icon.png) no-repeat left center;
+  width:19px;
+  height:19px;
+  display:inline-block;
+  vertical-align:middle;
+  background-size:contain;
+  margin-right:10px; 
+}
