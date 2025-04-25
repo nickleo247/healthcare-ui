@@ -70,6 +70,7 @@ body{
 .sidebar-main-nav{
   padding-left:0;
   list-style:none;
+  margin:35px 0;
 }
 
 .sidebar-main-nav li.single-nav-item{
