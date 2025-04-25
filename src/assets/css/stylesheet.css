@@ -53,7 +53,7 @@ body{
 
 
 .logo{
-  background:url(images/Logo.png) no-repeat center left;
+  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/Logo.png) no-repeat center left;
   width:80%;
   height:45px;
   background-size:contain;
@@ -61,7 +61,7 @@ body{
 }
 
 .expand-icon{
-  background:url(../src/assets/images/Expand-Icon.png) no-repeat center right;
+  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/Expand-Icon.png) no-repeat center right;
   width:20%;
   height:9px;
   background-size:contain;
@@ -94,7 +94,7 @@ body{
 
 
 .menu-icon-overview{
-  background:url(src/assets/images/overview-icon.png) no-repeat left center;
+  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/overview-icon.png) no-repeat left center;
   width:19px;
   height:19px;
   display:inline-block;
@@ -104,7 +104,7 @@ body{
 }
 
 .menu-icon-appointments{
-  background:url(src/assets/images/appointments-icon.png) no-repeat left center;
+  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/appointments-icon.png) no-repeat left center;
   width:19px;
   height:19px;
   display:inline-block;
@@ -114,7 +114,7 @@ body{
 }
 
 .menu-icon-doctors{
-  background:url(src/assets/images/doctor-icon.png) no-repeat left center;
+  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/) no-repeat left center;
   width:19px;
   height:19px;
   display:inline-block;
@@ -124,11 +124,21 @@ body{
 }
 
 .menu-icon-pathology{
-  background:url(images/pathology-icon.png) no-repeat left center;
+  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/) no-repeat left center;
   width:19px;
   height:19px;
   display:inline-block;
   vertical-align:middle;
   background-size:contain;
   margin-right:10px; 
+}
+
+.menu-icon-chats{
+  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/) no-repeat left center;
+  width:19px;
+  height:19px;
+  display:inline-block;
+  vertical-align:middle;
+  background-size:contain;
+  margin-right:10px;
 }
