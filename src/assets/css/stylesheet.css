@@ -169,3 +169,23 @@ body{
   cursor:pointer;
   border-radius:8px;
 }
+
+.menu-icon-settings{
+  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/settings-icon.png) no-repeat left center;
+  width:19px;
+  height:19px;
+  display:inline-block;
+  vertical-align:middle;
+  background-size:contain;
+  margin-right:10px;
+}
+
+.menu-icon-logout{
+  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/logout-icon.png) no-repeat left center;
+  width:19px;
+  height:19px;
+  display:inline-block;
+  vertical-align:middle;
+  background-size:contain;
+  margin-right:10px;
+}
