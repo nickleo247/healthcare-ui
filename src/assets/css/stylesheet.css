@@ -37,6 +37,7 @@ body{
   display:inline-block;
   background-color:#F7F7F7;
   border-radius:20px;
+  height:calc( 100vh - 20px );
 }
 
 .sidebar-header{
