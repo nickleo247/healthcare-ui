@@ -1,336 +1,145 @@
-body{
-  margin:0;
-  padding:20px;
+/* ====== RESET ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.poppins-light {
-  font-family: "Poppins Light", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f6fa;
+  color: #333;
 }
 
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+/* ====== LAYOUT ====== */
+.dashboard {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  height: 100vh;
 }
 
-.poppins-semibold {
-  font-family: "Poppins Semibold", sans-serif;
+/* ====== SIDEBAR ====== */
+.sidebar {
+  background-color: #ffffff;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #e0e0e0;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sidebar .logo {
+  margin-bottom: 2rem;
+}
+
+/* ====== MAIN CONTENT ====== */
+.main-content {
+  padding: 2rem;
+  background-color: #f8f9fb;
+  overflow-y: auto;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 1.5rem;
+}
+
+/* ====== HEADER (Search + Profile) ====== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ====== WELCOME SECTION ====== */
+.welcome-section h2 {
+  font-size: 1.5rem;
+  color: #e60023;
+}
+
+.welcome-section p {
+  color: #666;
+}
+
+/* ====== CARDS GRID ====== */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* ====== CARD ====== */
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+/* ====== CHART PLACEHOLDERS ====== */
+.chart {
+  height: 180px;
+  background-color: #eef1f6;
+  border-radius: 12px;
+}
+
+/* ====== PATIENTS TABLE ====== */
+.patients-table {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.patient-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.patient-row:last-child {
+  border-bottom: none;
+}
+
+/* ====== UTILITIES ====== */
+.text-bold {
   font-weight: 600;
-  font-style: normal;
 }
 
-.poppins-bold {
-  font-family: "Poppins Bold", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+.text-muted {
+  color: #999;
 }
 
-
-.full-wrapper{
-  width:100%;
+.badge {
+  background-color: #e60023;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
 }
 
-.sidebar-wrapper{
-  display:inline-block;
-  background-color:#F7F7F7;
-  border-radius:20px;
-  /*height:calc( 100vh - 40px );*/
+/* ====== BUTTONS ====== */
+.button {
+  padding: 0.5rem 1.25rem;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-.sidebar-header{
-  padding: 20px;
-  display:flex;
-  flex-wrap:nowrap;
-  justify-content:center;
-  align-items:center;
-  align-content:flex-start;
-  width:auto;
-  flex-direction:row;
-  border-bottom:1px solid #D3D3D3;
+.button.outline {
+  background: none;
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
 }
 
-
-.logo{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/Logo.png) no-repeat center left;
-  width:80%;
-  height:45px;
-  background-size:contain;
-  display:inline-block;
+.button.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
-
-.expand-icon{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/Expand-Icon.png) no-repeat center right;
-  width:20%;
-  height:9px;
-  background-size:contain;
-}
-  
-.sidebar-main-nav{
-  padding-left:0;
-  list-style:none;
-  margin:35px 0;
-}
-
-.sidebar-main-nav li.single-nav-item{
-  margin:10px 0;
-}
-
-.sidebar-main-nav li.single-nav-item a{
-  display:block;
-  padding:20px;
-  color:#343434;
-  font-family: "Poppins", sans-serif;
-  font-size:12px;
-  text-decoration:none;
-}
-
-.sidebar-main-nav li.single-nav-item a.active-link{
-  font-family: "Poppins Bold", sans-serif;
-  font-weight:900;
-  color:#100DB1;
-  background:#DFE0E2;
-}
-
-
-.menu-icon-overview{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/overview-icon.png) no-repeat left center;
-  width:19px;
-  height:19px;
-  display:inline-block;
-  vertical-align:middle;
-  background-size:contain;
-  margin-right:10px;
-}
-
-.menu-icon-appointments{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/appointments-icon.png) no-repeat left center;
-  width:19px;
-  height:19px;
-  display:inline-block;
-  vertical-align:middle;
-  background-size:contain;
-  margin-right:10px;
-}
-
-.menu-icon-doctors{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/doctor-icon.png) no-repeat left center;
-  width:19px;
-  height:19px;
-  display:inline-block;
-  vertical-align:middle;
-  background-size:contain;
-  margin-right:10px; 
-}
-
-.menu-icon-pathology{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/pathology-icon.png) no-repeat left center;
-  width:19px;
-  height:19px;
-  display:inline-block;
-  vertical-align:middle;
-  background-size:contain;
-  margin-right:10px; 
-}
-
-.menu-icon-chats{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/chat-icon.png) no-repeat left center;
-  width:19px;
-  height:19px;
-  display:inline-block;
-  vertical-align:middle;
-  background-size:contain;
-  margin-right:10px;
-}
-
-.menu-text{
-  padding:0px 20px;
-  text-transform:uppercase;
-  font-size:12px;
-  color:#343434;
-  font-family: "Poppins Bold", sans-serif;
-  font-weight: 700;
-}
-
-.single-nav-item{
-  position:relative;
-}
-
-.chat-number{
-  position:absolute;
-  right:20px;
-  top:34%;
-  background-color:#F80D38;
-  color:white;
-  font-family: "Poppins Bold", sans-serif;
-  font-size:8px;
-  text-align:center;
-  padding:3px 5px;
-  cursor:pointer;
-  border-radius:8px;
-  font-weight: 700;
-}
-
-.menu-icon-settings{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/settings-icon.png) no-repeat left center;
-  width:19px;
-  height:19px;
-  display:inline-block;
-  vertical-align:middle;
-  background-size:contain;
-  margin-right:10px;
-}
-
-.menu-icon-logout{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/logout-icon.png) no-repeat left center;
-  width:19px;
-  height:19px;
-  display:inline-block;
-  vertical-align:middle;
-  background-size:contain;
-  margin-right:10px;
-}
-
-.red-nav-text a{
-  color:#F80D38 !important;
-  font-family: "Poppins Bold", sans-serif;
-  font-weight: 700;
-}
-
-.red-plain-text{
-  color:#F80D38;
-  font-family: "Poppins Bold", sans-serif;
-  font-weight: 700;
-  display:inline-block;
-  font-size:12px;
-  margin:0 0 0px 0;
-  font-style:italic;
-}
-
-.phone-icon{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/phone-icon.png) no-repeat left center;
-  width:28px;
-  height:32px;
-  display:inline-block;
-  vertical-align:middle;
-  background-size:contain;
-  margin-right:10px;
-}
-
-.footer-phone{
-  display:inline-block;
-  vertical-align:middle;
-  margin:0;
-  font-size:10px;
-  color:#343434;
-  font-family: "Poppins", sans-serif;
-  margin-top:-10px;
-}
-
-.hotline-text{
-  display:inline-block;
-}
-
-.sidebar-footer{
-  padding:20px;
-  display:flex;
-  align-items:center;
-  border-top:1px solid #D3D3D3;
-}
-
-header{
-  background-color:#F7F7F7;
-  padding:20px;
-  border-radius:20px;
-}
-
-.search-bar{
-  border:1px solid #C5C5C5;
-  background-color:white;
-  padding:7px;
-  border-radius:10px;
-  display:inline-block;
-  width:calc(100% - 250px);
-  vertical-align:middle;
-}
-
-.submit-button{
-  border:0;
-  background:transparent;
-  vertical-align:middle;
-  line-height:25px;
-}
-
-.search-bar-icon{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/search-icon.png) no-repeat center center;
-  display:inline-block;
-  width:13px;
-  height:13px;
-  background-size:contain;
-  border:0;
-}
-
-input.search-input{
-  border:0;
-  display:inline-block;
-  vertical-align:middle;
-  font-size:10px;
-  width:calc(100% - 30px);
-  height:29px;
-}
-
-.notification-bell{
-  background:url(https://nickleo247.github.io/healthcare-ui/src/assets/images/bell-icon.png) #fff no-repeat center center;
-  border:1px solid #C5C5C5;
-  border-radius:100%;
-  width:22px;
-  height:22px;
-  display:block;
-  margin:0 15px;
-  background-size:15px;
-  
-}
-
-.bell-wrapper{
-  display:inline-block;
-  vertical-align:middle;
-  border-right:1px solid #c5c5c5;
-}
-
-.profile-wrapper{
-  display:inline-block;
-  vertical-align:middle;
-}
-
-.profile-icon{
-  background:#D6D6D6;
-  width:40px;
-  height:40px;
-  border-radius:100%;
-  border:1px solid white;
-  display:inline-block;
-  vertical-align:middle;
-  margin:0 10px;
-}
-
-.profile-text{
-  display:inline-block;
-  vertical-align:middle;
-}
-
-.profile-text p{
-  font-size:12px;
-  color:#343434;
-  font-weight:900;
-  margin:0;
-}
-
-.profile-text .p-blue{
-  font-size:10px;
-  text-transform:uppercase;
-  color:##100DB1;
-  margin:0;
-}
-
-
